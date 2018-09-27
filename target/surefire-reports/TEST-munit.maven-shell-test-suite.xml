@@ -1,0 +1,69 @@
+<testsuite name="maven-shell-test-suite" time="0.562" failures="0" errors="0" skipped="0" tests="1">
+  <properties>
+    <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
+    <property key="java.vm.version" value="25.172-b11"/>
+    <property key="maven.multiModuleProjectDirectory" value="C:\Users\mpinninti\AnypointStudio\workspace\maven-shell"/>
+    <property key="java.vm.vendor" value="Oracle Corporation"/>
+    <property key="java.vendor.url" value="http://java.oracle.com/"/>
+    <property key="guice.disable.misplaced.annotation.check" value="true"/>
+    <property key="path.separator" value=";"/>
+    <property key="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property key="file.encoding.pkg" value="sun.io"/>
+    <property key="user.country" value="US"/>
+    <property key="user.script" value=""/>
+    <property key="sun.java.launcher" value="SUN_STANDARD"/>
+    <property key="sun.os.patch.level" value=""/>
+    <property key="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property key="user.dir" value="C:\Users\mpinninti\AnypointStudio\workspace\maven-shell"/>
+    <property key="java.runtime.version" value="1.8.0_172-b11"/>
+    <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property key="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\endorsed"/>
+    <property key="os.arch" value="amd64"/>
+    <property key="java.io.tmpdir" value="C:\Users\MPINNI~1\AppData\Local\Temp\"/>
+    <property key="line.separator" value="&#xd;&#xa;"/>
+    <property key="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property key="user.variant" value=""/>
+    <property key="os.name" value="Windows 10"/>
+    <property key="classworlds.conf" value="D:\maven\apache-maven-3.5.4\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property key="sun.jnu.encoding" value="Cp1252"/>
+    <property key="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\mpinninti\apache-ant-1.9.13\bin;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\IBM\MQ\java\lib;C:\Program Files\IBM\MQ\java\lib64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\mpinninti\Desktop\apache-activemq-5.15.3\bin;C:\Program Files\IBM\MQ\bin64;C:\Program Files\IBM\MQ\bin;C:\Program Files\IBM\MQ\tools\c\samples\bin;C:\Program Files\MIT\Kerberos\bin;D:\ANT\Xalan JAR files\xalan.jar;D:\ANT\Xalan JAR files\xercesImpl-2.8.1.jar;D:\ANT\Xalan JAR files\serializer-2.7.1.jar;D:\ANT\Xalan JAR files\xml-apis-xerces-2.7.1.jar;D:\ANT\Xalan JAR files\xsltc-2.7.1.jar;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\git.exe;D:\maven\apache-maven-3.5.4\apache-maven-3.5.4\bin;C:\Program Files\Git\bin;C:\Users\mpinninti\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\mpinninti\AppData\Local\Programs\Python\Python36\;C:\Users\mpinninti\AppData\Local\Microsoft\WindowsApps;C:\Users\mpinninti\AppData\Roaming\npm;C:\Users\mpinninti\AppData\Roaming\Cloud Foundry;."/>
+    <property key="maven.conf" value="D:\maven\apache-maven-3.5.4\apache-maven-3.5.4\bin\../conf"/>
+    <property key="java.specification.name" value="Java Platform API Specification"/>
+    <property key="java.class.version" value="52.0"/>
+    <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property key="os.version" value="10.0"/>
+    <property key="library.jansi.path" value="D:\maven\apache-maven-3.5.4\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property key="user.home" value="C:\Users\mpinninti"/>
+    <property key="user.timezone" value="Asia/Calcutta"/>
+    <property key="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property key="file.encoding" value="Cp1252"/>
+    <property key="java.specification.version" value="1.8"/>
+    <property key="java.class.path" value="D:\maven\apache-maven-3.5.4\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property key="user.name" value="mpinninti"/>
+    <property key="java.vm.specification.version" value="1.8"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy"/>
+    <property key="java.home" value="C:\Program Files\Java\jdk1.8.0_172\jre"/>
+    <property key="sun.arch.data.model" value="64"/>
+    <property key="user.language" value="en"/>
+    <property key="java.specification.vendor" value="Oracle Corporation"/>
+    <property key="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property key="java.vm.info" value="mixed mode"/>
+    <property key="java.version" value="1.8.0_172"/>
+    <property key="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property key="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
+    <property key="java.vendor" value="Oracle Corporation"/>
+    <property key="sun.stderr.encoding" value="cp850"/>
+    <property key="maven.home" value="D:\maven\apache-maven-3.5.4\apache-maven-3.5.4\bin\.."/>
+    <property key="file.separator" value="\"/>
+    <property key="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property key="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property key="sun.cpu.endian" value="little"/>
+    <property key="sun.stdout.encoding" value="cp850"/>
+    <property key="sun.desktop" value="windows"/>
+    <property key="sun.cpu.isalist" value="amd64"/>
+    <property key="mule.testingMode" value="true"/>
+    <property key="mule.working.dir" value="C:\Users\mpinninti\AnypointStudio\workspace\maven-shell\target\.mule"/>
+  </properties>
+  <testcase time="0.012" name="maven-shell-test-suite-maven-shellFlowTest" classname="maven-shell-test-suite"/>
+</testsuite>

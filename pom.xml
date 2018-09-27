@@ -15,7 +15,6 @@
 		<mule.version>3.9.0</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 	<munit.version>1.3.7</munit.version>
-	<maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
     <mule.munit.support.version>3.9.1</mule.munit.support.version>
     </properties>
 
@@ -30,11 +29,6 @@
                     <copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
 			</plugin>
-			<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>${maven-deploy-plugin.version}</version>
-      </plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
@@ -107,6 +101,13 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-deploy-plugin</artifactId>
+  <configuration>
+    <skip>true</skip>
+  </configuration>
+</plugin>
         </plugins>
 	<testResources>
             <testResource>
@@ -236,12 +237,4 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-<distributionManagement>
-		<repository>
-			<id>nexus-release</id>
-			<name>Corporate Repository</name>
-			<url>https://repository.gbif.org/maven2</url>
-			<layout>default</layout>
-		</repository>
-</distributionManagement>
 </project>
