@@ -84,7 +84,7 @@
 				<version>2.0</version>
 				<configuration>
                     <deploymentType>${deploy.deploymentType}</deploymentType>
-					<muleVersion>${mule.version}</muleVersion>
+					<muleVersion>${deploy.muleVersion}</muleVersion>
 					<username>${deploy.username}</username>
 					<password>${deploy.password}</password>
 					<workerType>${deploy.workerType}</workerType>
